@@ -1,17 +1,15 @@
-# Twenty Nineteen
-
+**Theme Name:** Twenty Nineteen  
+**Theme URI:** https://wordpress.org/themes/twentynineteen/  
 **Contributors:** the WordPress team  
-**Requires at least:** WordPress 4.9.8 
-**Tested up to:** WordPress 4.9.8  
-**Version:** 1.0  
+**Requires at least:** WordPress 4.9.6  
+**Version:** 1.2  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
-**Tags:** one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
-
+**Tags:** one-column, flexible-header, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 ## Description
 
-Twenty Nineteen is a Gutenberg-ready theme for WordPress.
+Our 2019 default theme is designed to show off the power of the block editor. It features custom styles for all the default blocks, and is built so that what you see in the editor looks like what you'll see on your website. Twenty Nineteen is designed to be adaptable to a wide range of websites, whether you’re running a photo blog, launching a new business, or supporting a non-profit. Featuring ample whitespace and modern sans-serif headlines paired with classic serif body text, it's built to be beautiful on all screen sizes.
 
 ## Installation
 
@@ -21,11 +19,10 @@ Twenty Nineteen is a Gutenberg-ready theme for WordPress.
 4. Go to https://codex.wordpress.org/Twenty_Nineteen for a guide on how to customize this theme.
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
-
 ## Copyright
 
 Twenty Nineteen WordPress Theme, Copyright 2018 WordPress.org
-Twenty Nineteen is distributed under the terms of the GNU GPL
+Twenty Nineteen is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -47,17 +44,22 @@ normalize.css, Copyright 2012-2016 Nicolas Gallagher and Jonathan Neal
 **License:** MIT
 Source: https://necolas.github.io/normalize.css/
 
-Bundled header image 1, Copyright XXXXX XXXXX
-**License:** CC0 1.0 Universal (CC0 1.0)
-Source: https://pexels.com/xxxxxxxxxx
-
-Bundled header image 2, Copyright XXXXX XXXXX
-**License:** CC0 1.0 Universal (CC0 1.0)
-Source: https://pexels.com/xxxxxxxxxx
-
 ## Changelog
 
-### X.X
-* Released: XX-XX-XXXX
+### 1.0
+
+* Released: 12-06-2019
 
 Initial release
+
+### 1.1
+
+* Released: 12-19-2019
+
+Bug Fixes
+
+### 1.2
+
+* Released: 01-09-2019
+
+Bug Fixes

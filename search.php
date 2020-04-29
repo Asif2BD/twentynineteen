@@ -6,6 +6,7 @@
  *
  * @package WordPress
  * @subpackage Twenty_Nineteen
+ * @since 1.0.0
  */
 
 get_header();
@@ -18,14 +19,9 @@ get_header();
 
 			<header class="page-header">
 				<h1 class="page-title">
-					<?php
-					/* translators: %s: search query. */
-					esc_html_e( 'Search results for:', 'twentynineteen' );
-					?>
+					<?php _e( 'Search results for:', 'twentynineteen' ); ?>
 				</h1>
-				<div class="page-description">
-					<?php echo get_search_query(); ?>
-				</div>
+				<div class="page-description"><?php echo get_search_query(); ?></div>
 			</header><!-- .page-header -->
 
 			<?php
@@ -38,7 +34,7 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
 				 */
-				get_template_part( 'template-parts/content/content' );
+				get_template_part( 'template-parts/content/content', 'excerpt' );
 
 				// End the loop.
 			endwhile;
@@ -48,7 +44,7 @@ get_header();
 
 			// If no content, include the "No posts found" template.
 		else :
-			get_template_part( 'template-parts/content', 'none' );
+			get_template_part( 'template-parts/content/content', 'none' );
 
 		endif;
 		?>

@@ -1,64 +1,3 @@
-/** === Main menu === */
-
-.main-navigation {
-
-	display: inline;
-
-	@include media(tablet) {
-		display: block;
-	}
-
-	body.page & {
-		display: block;
-	}
-
-	> div {
-		display: inline;
-	}
-
-	ul.main-menu {
-
-		display: inline;
-		margin: 0;
-		padding: 0;
-
-		> li {
-
-			display: inline;
-
-			> a {
-
-				&:hover {
-					color: $color__link-hover;
-				}
-
-				&:after {
-					content: ",";
-					display: inline;
-					color: $color__text-light;
-				}
-			}
-
-			&:last-child> a:after {
-				content: ".";
-			}
-
-			> a {
-				font-weight: 700;
-				color: $color__link;
-			}
-
-			&:last-child > a {
-				margin-right: 0;
-			}
-		}
-	}
-
-	ul.sub-menu {
-		display: none;
-	}
-}
-
 /* Social menu */
 
 .social-navigation {
@@ -106,11 +45,22 @@
 					width: 32px;
 					height: 32px;
 
+					// Prevent icons from jumping in Safari using hardware acceleration.
+					transform: translateZ(0);
+
 					&#ui-icon-link {
 						transform: rotate(-45deg);
 					}
 				}
 			}
 		}
+	}
+}
+
+.site-title + .social-navigation,
+.site-description + .social-navigation {
+
+	@include media(tablet) {
+		margin-top: calc(#{$size__spacing-unit} / 5 );
 	}
 }
